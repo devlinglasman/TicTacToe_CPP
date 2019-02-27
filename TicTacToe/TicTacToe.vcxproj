@@ -34,12 +34,29 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClInclude Include="Board.hpp" />
+    <ClInclude Include="Game.hpp" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="HumanPlayer.hpp" />
     <ClInclude Include="Mark.hpp" />
+    <ClInclude Include="Mode.hpp" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="RandomPlayer.hpp" />
+    <ClInclude Include="StubPlayer.hpp" />
+    <ClInclude Include="UI.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="BoardTest.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="HumanPlayer.cpp" />
+    <ClCompile Include="HumanPlayerTest.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RandomPlayer.cpp" />
+    <ClCompile Include="RandomPlayerTest.cpp" />
+    <ClCompile Include="StubPlayer.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UITest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
