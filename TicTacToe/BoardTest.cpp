@@ -1,6 +1,7 @@
-#include "pch.h"
+#include "gtest/gtest.h"
 #include "Board.hpp"
 #include "Mark.hpp"
+
 
 TEST(Board, EmptyBoardCreation) {
 	Board board(3);
